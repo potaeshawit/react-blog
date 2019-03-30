@@ -15,7 +15,7 @@ class PostList extends React.Component {
 
 const mapStateToProps = state => {
   return { posts: state.posts };
-}
+};
 
 export default connect(
   mapStateToProps,
